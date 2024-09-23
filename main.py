@@ -1,3 +1,4 @@
+#python -m ensurepip --upgrade
 import ifcopenshell
 
 from .rules import windowRule
@@ -10,3 +11,5 @@ doorResult = doorRule.checkRule(model)
 
 print("Window result:", windowResult)
 print("Door result:", doorResult)
+
+#test
