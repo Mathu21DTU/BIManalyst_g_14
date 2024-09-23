@@ -1,12 +1,13 @@
-
 import ifcopenshell
-from bonsai.bim.ifc import IfcStore
 
+from rules import AHURule
 # Vi importerer filen via ifcopenshell
-file = ifcopenshell.open("/Users/bruger/Downloads/CES_BLD_24_06_MEP.ifc")
+model = ifcopenshell.open("\\Users\\bruger\\Downloads\\CES_BLD_24_06_MEP.IFC")
 
 # Vi definerer AHU:
-things = file.by_type("IfcBuildingElementProxy")
+AHUResult = windowRule.checkRule(model)
 
 # Vi tjekker hvor mange AHU der er via:
-print(len(things))
+print("AHU result:",AHUResult)
+
+
