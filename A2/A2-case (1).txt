@@ -11,8 +11,8 @@
   - *Mathushan* : 2
 
   ###  Group 15 - Analysts
-  - *Zohaib* :
-  - *Mikael* :
+  - *Zohaib* : 1
+  - *Mikael* : 2
 
 
  ### Total Score:

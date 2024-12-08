@@ -1,4 +1,4 @@
-
+#COPY THIS INTO the SCRIPTING area in 
 #First we import necessary data:    
 import ifcopenshell
 from bonsai.bim.ifc import IfcStore
